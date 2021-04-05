@@ -1,0 +1,24 @@
+.button-container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(188, 232, 250);
+    padding: 20px;
+    cursor:cell;
+  }
+  .button-value{
+      border: 0px solid blue;
+      cursor:grab;
+      box-shadow: 20px 20px 10px 5px black;
+      padding: 20px;
+      width: 100%;
+      background-color: teal;
+      font-size: 20px;
+      color: whitesmoke;
+      text-transform: capitalize;
+      /* display: flex; */
+  }
+  .button-value:hover {
+     margin: 10px 0px 30px 20px;
+   color: rgb(227, 209, 209);
+  }
